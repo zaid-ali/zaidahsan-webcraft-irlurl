@@ -1,0 +1,35 @@
+{
+  "name": "irlurl-replica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixel-faithful local replica of the irl/URL agency site.",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "manifest:update": "node scripts/generate-asset-manifest.js",
+    "dev": "node server.js",
+    "start": "node server.js",
+    "format": "prettier --write src scripts tests server.js eslint.config.js package.json README.md ARCHITECTURE.md",
+    "format:check": "prettier --check src scripts tests server.js eslint.config.js package.json README.md ARCHITECTURE.md",
+    "lint": "eslint server.js scripts tests src/js eslint.config.js",
+    "typecheck": "tsc -p jsconfig.json",
+    "test": "node --test tests/*.test.js",
+    "test:browser": "node scripts/browser-smoke.js",
+    "check:assets": "node scripts/check-assets.js",
+    "check": "npm run build && npm run format:check && npm run lint && npm run typecheck && npm test && npm run check:assets",
+    "verify": "npm run check && npm run test:browser"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.3.0",
+    "@types/three": "^0.143.0",
+    "eslint": "^10.0.0",
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "three": "^0.143.0"
+  }
+}

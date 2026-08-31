@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "lib": ["ES2023", "DOM", "DOM.Iterable", "WebWorker"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "maxNodeModuleJsDepth": 0,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2023",
+    "types": ["node"]
+  },
+  "include": [
+    "server.js",
+    "scripts/**/*.js",
+    "src/js/**/*.js",
+    "src/types.d.ts",
+    "tests/**/*.js"
+  ],
+  "exclude": ["node_modules", "public", "vendor", "src/service-worker.js"]
+}

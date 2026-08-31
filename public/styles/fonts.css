@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Pixel;
+  src: url("/assets/fonts/pixel.otf");
+}
+@font-face {
+  font-family: "Serif";
+  src: url("/assets/fonts/serif.ttf");
+}
+@font-face {
+  font-family: Sans;
+  src: url("/assets/fonts/sans.ttf");
+}

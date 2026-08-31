@@ -1,0 +1,209 @@
+@media (max-width: 1100px) {
+  .scroll-target {
+    background:
+      repeating-linear-gradient(
+        180deg,
+        transparent 0,
+        rgba(255, 0, 0, 0.5) 333.3333333333vh
+      ),
+      repeating-linear-gradient(
+        180deg,
+        transparent 0,
+        transparent 200px,
+        rgba(255, 0, 0, 0.5) 0,
+        rgba(255, 0, 0, 0.5) 201px
+      );
+    height: 1400vh;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    z-index: 10;
+  }
+  main {
+    position: relative;
+  }
+  .menu-on main {
+    opacity: 0 !important;
+  }
+  main section {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  main section aside {
+    bottom: 48px;
+    opacity: 0;
+    padding: 0 24px;
+    position: absolute;
+    width: calc(100% - 48px);
+  }
+  main section h3 {
+    left: 24px;
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 120px;
+    -webkit-transform: translateY(20px) skewY(10deg);
+    transform: translateY(20px) skewY(10deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  main section.on {
+    pointer-events: all;
+  }
+  main section.on h3 {
+    opacity: 1;
+    -webkit-transform: translateY(0) skewY(0);
+    transform: translateY(0) skewY(0);
+    -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  main section.on aside {
+    opacity: 1;
+  }
+  section#intro h3 {
+    display: none;
+  }
+  section#intro aside h2 {
+    max-width: 320px;
+  }
+  section#intro aside .copy li {
+    padding-top: 8px;
+  }
+  section#work aside ul {
+    height: 100%;
+    width: 100%;
+  }
+  section#work aside ul li {
+    display: block;
+    font-size: 40px;
+    margin: 40px 0 20px;
+  }
+  section#work aside ul li a * {
+    pointer-events: none;
+  }
+  section#work aside ul li a:after {
+    content: attr(data-desc);
+    display: block;
+    font-family: Pixel;
+    font-size: 18px;
+    line-height: 100%;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+  }
+  section#services aside ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  section#services aside ul li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    line-height: 1.2em;
+    padding: 0 0 10px 30px;
+    position: relative;
+    width: 100%;
+  }
+  section#services aside ul li:last-child {
+    font-size: 15px;
+    padding-bottom: 0;
+  }
+  section#services aside ul li span {
+    font-family: Pixel;
+    font-size: 21px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  section#services aside ul li small {
+    font-family: "Serif";
+  }
+  section#about aside h2 {
+    max-width: 300px;
+  }
+  section#about aside .copy,
+  section#about aside p.large {
+    margin-top: 10px;
+  }
+  section#mission aside h2 {
+    max-width: 230px;
+  }
+  section#mission aside .copy,
+  section#mission aside p.large {
+    margin-top: 10px;
+  }
+  section#purpose aside p.large {
+    margin-top: 10px;
+    max-width: 780px;
+  }
+  section#vision aside h2 {
+    max-width: 300px;
+  }
+  section#vision aside p.large {
+    margin-top: 10px;
+    max-width: 780px;
+  }
+  section#vision aside .copy {
+    bottom: 24px;
+    position: absolute;
+  }
+  section#vision aside h4 {
+    margin-bottom: 20px;
+  }
+  section#team aside {
+    bottom: auto;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  section#team aside ul {
+    height: 100%;
+    width: 100%;
+  }
+  section#team aside ul li {
+    display: block;
+    font-size: 40px;
+    margin: 40px 0 20px;
+  }
+  section#team aside ul li a * {
+    pointer-events: none;
+  }
+  section#team aside ul li a:after {
+    content: attr(data-desc);
+    display: block;
+    font-family: Pixel;
+    font-size: 18px;
+    line-height: 100%;
+    opacity: 1;
+    pointer-events: none;
+    position: absolute;
+  }
+  section#outro aside figure {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  section#outro aside figure svg {
+    fill: #fff;
+  }
+  section#outro aside .copy p,
+  section#outro aside .social {
+    margin-top: 16px;
+  }
+  section#outro aside .social li {
+    display: inline-block;
+    margin-right: 16px;
+  }
+}

@@ -1,0 +1,21 @@
+loadMediaGrid({
+    "path": "assets/",
+    "manifest": [      
+      {"id":"hdr", "src":"models/hdr/empty_warehouse_01_1k.hdr"},
+      {"id":"logo", "src":"models/Logo.glb"},
+      {"id":"map", "src":"models/map.jpg"},
+
+      {"id":"L_1_inflated", "src":"models/cubes/L_1_inflated.glb"},
+      {"id":"L_3_suzanne", "src":"models/cubes/L_3_suzanne2.glb"},
+      {"id":"L_4_art cube", "src":"models/cubes/L_4_art cube.glb"},
+      {"id":"L_5_rubicks", "src":"models/cubes/L_5_rubicks.glb"},
+      {"id":"L_6_Sci-Fi", "src":"models/cubes/L_6_Sci-Fi.glb"},
+      {"id":"L_8_liquid plastic", "src":"models/cubes/L_8_liquid plastic.glb"},
+      {"id":"R_1_liquid metallic", "src":"models/cubes/R_1_liquid metallic.glb"},
+      {"id":"R_5_inflated", "src":"models/cubes/R_5_inflated.glb"},
+      {"id":"R_6_Speaker", "src":"models/cubes/R_6_Speaker.glb"},
+      {"id":"R_7_minecraft", "src":"models/cubes/R_7_minecraft.glb"},
+      {"id":"R_8_concret", "src":"models/cubes/R_8_concret.glb"},
+      {"id":"R2_hardware", "src":"models/cubes/R2_Hardware.glb"},
+    ]
+});

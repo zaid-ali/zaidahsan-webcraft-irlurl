@@ -1,0 +1,218 @@
+[site]
+name = "zaidahsan-webcraft-irlurl"
+url = ""
+original_url = "https://irl-url.com"
+description = "irl/URL creative agency portfolio — dark cinematic single route with 9 chapters (welcome, work 6 items MrBeast/Pink Palm Puff/Deadmau5/Nike x RTFKT/Akatsuki/Drew House with uppercase descriptors and preview video hover, services 7 numbered plus tailored line, about/mission/purpose/vision narrative, team 4 members Travis Anderson/Bree Morrison/Frank van Rooijen/Damian Estrada with titles/bios/logos/videos, outro contact with email HQ Los Angeles Operations Hong Kong social and animated slash logo 93x108), WebGL background field with cubes and HDR lighting driven by scroll progression and infinite loop wrapping, fixed 100vh sections with scroll track, indicator 9 dots with progress fill scaling and hover labels, header with logo SVG sprite 72x50 and burger 40x40 trigger and slogan We don't do basic, full-screen nav overlay with Work/Services/About/Team jumps, case study overlays with cover/intro scope list/media rows 1/2/3 columns with images/videos/text, team profile overlay split left bio logos and right autoplay video, preloader with progress circle and logo morph, modular CSS desktop/mobile, fully keyboard operable and reduced-motion fallback."
+category = "replication"
+
+[site.tech]
+stack = ["Node.js", "Three.js 0.160 WebGL", "Vanilla JS ESM", "CSS Modules", "Service Worker"]
+hosting = "vercel"
+hosting_access_granted = false
+
+[site.assets]
+images = [
+  "public/assets/icons.svg",
+  "public/assets/icons/apple-touch-icon-144x144.png",
+  "public/assets/icons/apple-touch-icon-152x152.png",
+  "public/assets/icons/favicon-16x16.png",
+  "public/assets/icons/favicon-32x32.png",
+  "public/assets/icons/irlurl-192.png",
+  "public/assets/icons/irlurl-384.png",
+  "public/assets/icons/irlurl-512.png",
+  "public/assets/icons/irlurl-thumbnail.jpg",
+  "public/assets/icons/mstile-144x144.png",
+  "public/assets/images/team/travis.jpg",
+  "public/assets/images/team/bree.jpg",
+  "public/assets/images/team/frank.jpg",
+  "public/assets/images/team/damian.jpg",
+  "public/assets/images/team/bree-logos.jpg",
+  "public/assets/images/team/damian-logos.jpg",
+  "public/assets/images/team/new-frank-logos.png",
+  "public/assets/images/team/new-travis-logos.png",
+  "public/assets/images/work/akatsuki-cover.jpg",
+  "public/assets/images/work/akatsuki-1.jpg",
+  "public/assets/images/work/akatsuki-2.jpg",
+  "public/assets/images/work/akatsuki-3.jpg",
+  "public/assets/images/work/akatsuki-4.jpg",
+  "public/assets/images/work/akatsuki-5.jpg",
+  "public/assets/images/work/akatsuki-6.jpg",
+  "public/assets/images/work/akatsuki-7.jpg",
+  "public/assets/images/work/akatsuki-8.jpg",
+  "public/assets/images/work/akatsuki-9.jpg",
+  "public/assets/images/work/akatsuki-10.jpg",
+  "public/assets/images/work/akatsuki-11.jpg",
+  "public/assets/images/work/akatsuki-12.jpg",
+  "public/assets/images/work/akatsuki-13.jpg",
+  "public/assets/images/work/akatsuki-14.jpg",
+  "public/assets/images/work/akatsuki-15.jpg",
+  "public/assets/images/work/akatsuki-16.jpg",
+  "public/assets/images/work/akatsuki-17.jpg",
+  "public/assets/images/work/drew-cover.jpg",
+  "public/assets/images/work/drew-1.jpg",
+  "public/assets/images/work/drew-2.jpg",
+  "public/assets/images/work/drew-3.jpg",
+  "public/assets/images/work/drew-4.jpg",
+  "public/assets/images/work/drew-5.jpg",
+  "public/assets/images/work/drew-6.jpg",
+  "public/assets/images/work/drew-7.jpg",
+  "public/assets/images/work/drew-8.jpg",
+  "public/assets/images/work/drew-9.jpg",
+  "public/assets/images/work/drew-10.jpg",
+  "public/assets/images/work/drew-11.jpg",
+  "public/assets/images/work/drew-12.jpg",
+  "public/assets/images/work/drew-13.jpg",
+  "public/assets/images/work/drew-14.jpg",
+  "public/assets/images/work/drew-15.jpg",
+  "public/assets/pages/beast/cover.png",
+  "public/assets/pages/beast/cover_2.png",
+  "public/assets/pages/beast/MrBeast-13.png",
+  "public/assets/pages/beast/MrBeast-14.png",
+  "public/assets/pages/beast/MrBeast-15.png",
+  "public/assets/pages/beast/MrBeast-17.png",
+  "public/assets/pages/beast/MrBeast-19.png",
+  "public/assets/pages/beast/MrBeastxNaruto-1.png",
+  "public/assets/pages/beast/MrBeastxNaruto-2.png",
+  "public/assets/pages/beast/MrBeastxNaruto-3.png",
+  "public/assets/pages/beast/MrBeastxNaruto-4.png",
+  "public/assets/pages/beast/MrBeastxNaruto-5.png",
+  "public/assets/pages/beast/MrBeastxNaruto-6.png",
+  "public/assets/pages/beast/MrBeastxNaruto-7.png",
+  "public/assets/pages/beast/MrBeastxNaruto-8.png",
+  "public/assets/pages/beast/MrBeastxNaruto-9.png",
+  "public/assets/pages/beast/MrBeastxNaruto-10.png",
+  "public/assets/pages/beast/MrBeastxNaruto-11.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Cover.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-collection-overview.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Product-1.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Product-2.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Product-3.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Product-4.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Slipmat.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Sweater.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-longsleeve.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-mousepad.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-B.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-C.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-D.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-F.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-H.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-I.png",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-J.png",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Cover.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie-2.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie-3.webp",
+  "public/assets/pages/nike/irlURL-Nike-Founders-Kit.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Founders-Kit-1.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Founders-Kit-4.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Footballverse.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Footballverse-2.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-1.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-2.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-3.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-4.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-5.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-6.webp",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-7.webp",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Cover3.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Coastal-Classics.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Wings.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Coastal-Classics3.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-1.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-2.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-4.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Slippers.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-sweats.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Wings.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-swim-2.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-swim-3.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-swim-4.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-swim-5.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Disney-Little-Mermaid-photo.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-popup-1.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-popup-2.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-popup-3.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-popup-4.png",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-popup-6.png"
+]
+videos = [
+  "public/assets/images/work/akatsuki-1.mp4",
+  "public/assets/images/work/akatsuki-2.mp4",
+  "public/assets/images/work/drew-1.mp4",
+  "public/assets/images/work/drew-2.mp4",
+  "public/assets/images/work/lqd-1.mp4",
+  "public/assets/images/work/lqd-2.mp4",
+  "public/assets/images/work/lqd-3.mp4",
+  "public/assets/images/work/lqd-4.mp4",
+  "public/assets/images/work/lqd-5.mp4",
+  "public/assets/images/work/lqd-6.mp4",
+  "public/assets/images/work/lqd-9.mp4",
+  "public/assets/images/work/lqd-10.mp4",
+  "public/assets/pages/beast/MrBeast-Swag-drop.mp4",
+  "public/assets/pages/beast/MrBeastxShaquille-oneal.mp4",
+  "public/assets/pages/beast/collab.mp4",
+  "public/assets/pages/beast/MrBeast Panther-cookie-cutters.mp4",
+  "public/assets/pages/beast/MrBeast-heavyweight-hoodies.mp4",
+  "public/assets/pages/dead/Deadmau5xCatEyedBoy-Pop-Up-Tokyo.mp4",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-Recap.mp4",
+  "public/assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-queue.mp4",
+  "public/assets/pages/dead/irlURL-Kazuo-Umezz.mp4",
+  "public/assets/pages/dead/irlURL-Pop-up-Tokyo.mp4",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie-NFC.mp4",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie.mp4",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX.mp4",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Demon.mp4",
+  "public/assets/pages/nike/irlURL-Nike-RTFKT-Footballverse.mp4",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Disney-Little-Mermaid.mp4",
+  "public/assets/pages/pink/Little-Mermaid.mp4",
+  "public/assets/pages/pink/irlURL-Pink-Palm-Puff-Pink-Palm-Passport.mp4",
+  "public/assets/videos/akatsuki.mp4",
+  "public/assets/videos/bree.mp4",
+  "public/assets/videos/damian.mp4",
+  "public/assets/videos/drew.mp4",
+  "public/assets/videos/frank.mp4",
+  "public/assets/videos/lqd.mp4",
+  "public/assets/videos/travis.mp4",
+  "public/assets/images/team/bree.mp4",
+  "public/assets/images/team/damian.mp4",
+  "public/assets/images/team/frank.mp4",
+  "public/assets/images/team/travis.mp4"
+]
+models_3d = [
+  "public/assets/models/Logo.glb",
+  "public/assets/models/cubes/L_1_inflated.glb",
+  "public/assets/models/cubes/L_3_suzanne2.glb",
+  "public/assets/models/cubes/L_4_art cube.glb",
+  "public/assets/models/cubes/L_5_rubicks.glb",
+  "public/assets/models/cubes/L_6_Sci-Fi.glb",
+  "public/assets/models/cubes/L_8_liquid plastic.glb",
+  "public/assets/models/cubes/R2_Hardware.glb",
+  "public/assets/models/cubes/R_1_liquid metallic.glb",
+  "public/assets/models/cubes/R_5_inflated.glb",
+  "public/assets/models/cubes/R_6_Speaker.glb",
+  "public/assets/models/cubes/R_7_minecraft.glb",
+  "public/assets/models/cubes/R_8_concret.glb"
+]
+svgs = [
+  "public/assets/icons.svg"
+]
+data = ["src/data.json", "public/data.json"]
+
+[site.prd]
+file = "PRD.md"
+setup = "npm install && npm run build && npm start — server at http://127.0.0.1:5173, healthz /healthz; check with npm run check"
+backend = "Dependency-free Node static server server.js serves public/ with ETag, conditional requests, byte ranges, immutable caching for assets, no-cache for index.html/sw.js/json, health reporting at /healthz returning build version. Content from local src/data.json (team 4 + pages 6) rendered into readable HTML/CSS/JS modules, WebGL scene via local GLB + HDR + map textures, no external DB, no analytics, no production origin fetches at runtime, 404 for unknown files."
+
+[[screenshots]]
+route = "/"
+file = "screenshots/replica-home.png"
+device = "desktop"
+side = "replica"
+
+[[screenshots]]
+route = "/"
+file = "screenshots/replica-mobile.png"
+device = "mobile"
+side = "replica"

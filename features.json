@@ -1,0 +1,35 @@
+{
+  "site": "zaidahsan-webcraft-irlurl",
+  "rubrics": [
+    {
+      "id": 1,
+      "criterion": "Home uses fixed 100vh chapters (Welcome, Work, Services, About, Mission, Purpose, Vision, Team, Contact) driven by tall scroll track ~1400vh with infinite loop wrapping bottom→top and top→bottom, side label fixed at calc(9.2%+72px) animating from translateY(20px) skewY(10deg) opacity 0 to settled opacity 1 with 0.6s cubic-bezier(0.215,0.61,0.355,1), indicator shows 9 dots with classes up/on/down where active span scales X by section progress, hover shows section name label clamped.",
+      "type": "CUJ",
+      "priority": "must-have"
+    },
+    {
+      "id": 2,
+      "criterion": "Work list shows 6 large 80px spaced 60px entries MrBeast/Pink Palm Puff/Deadmau5/Nike x RTFKT/Akatsuki/Drew House with uppercase descriptor reveal on hover via fade+slide and background preview video playback from /assets/pages/ and /assets/videos/ such as MrBeast-Swag-drop.mp4 and akatsuki.mp4, click opens case overlay with close Close case study, cover image alt Title cover plus h1 title matching and h2 subtitle matching descriptor, intro split About the project paragraphs plus Scope list.",
+      "type": "CUJ",
+      "priority": "must-have"
+    },
+    {
+      "id": 3,
+      "criterion": "Header has logo graphic /assets/icons.svg#logo 72x50 with hidden irl/URL, menu trigger 40x40 burger with 3 fragmented bars toggling to X 40x4 close icons, slogan We don't do basic italic We bold basic, and full-screen nav overlay with Work Services About Team links jumping to sections 1,2,3,7, plus social Instagram/Twitter/LinkedIn external secure, contact email contact@irl-url.com and address 2890 Colorado Ave Santa Monica CA 90404 and Website by Mobiquity linking https://www.mobiquity.com.",
+      "type": "design",
+      "priority": "must-have"
+    },
+    {
+      "id": 4,
+      "criterion": "Case overlays for 6 ids beast/pink/dead/nike/akatsuki/drew render cover, intro scope comma-split list, and media rows 1/2/3 columns with variants flush/narrow-wide/nospace/no-item-padding/uneven using local images like /assets/pages/beast/cover.png and videos with controls muted loop such as /assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie.mp4 and /assets/images/work/akatsuki-1.mp4 showing alt Project visual, and profile overlays for 4 team members Travis Anderson/Bree Morrison/Frank van Rooijen/Damian Estrada show h1 name h2 title exact bio plus Selected clients logos alt with name and right video /assets/videos/travis.mp4 poster matching portrait.",
+      "type": "CUJ",
+      "priority": "must-have"
+    },
+    {
+      "id": 5,
+      "criterion": "Preloader shows progress circle strokeDasharray percent while warming critical assets /assets/models/map.jpg, L_1_inflated.glb, R2_Hardware.glb plus fonts, waiting state then loaded after 1111ms then ready removing wait and removing preloader after 555ms, background WebGL field behind main uses models /assets/models/Logo.glb plus cubes L_1...R_8 plus HDR empty_warehouse_01_1k.hdr plus map.jpg with camera FOV nudge on scroll direction and pause on visibility hidden, and outro contact shows animated slash logo 93x108 viewBox 0 0 93 108 with path morph and translate 1s animations plus email HQ LA Operations HK social Instagram X LinkedIn.",
+      "type": "design",
+      "priority": "must-have"
+    }
+  ]
+}

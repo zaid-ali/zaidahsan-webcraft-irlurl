@@ -1,0 +1,1702 @@
+{
+  "schemaVersion": 1,
+  "assets": {
+    "assets/fonts/pixel.otf": {
+      "bytes": 144460,
+      "sha256": "130e4f16c87d7b050ca4f00ba995b1494a9e42b81929a4c77e7738900c70625f",
+      "sources": [
+        "src/styles/fonts.css"
+      ]
+    },
+    "assets/fonts/sans.ttf": {
+      "bytes": 197292,
+      "sha256": "7fc71ae48e48b793093db0b961a3cfe99ade53aec38ccd1e27f4689eacb4e423",
+      "sources": [
+        "src/styles/fonts.css"
+      ]
+    },
+    "assets/fonts/serif.ttf": {
+      "bytes": 140844,
+      "sha256": "4037c547ce5128276053b42f716992d6dd2513763d18f80ef8948171b1a9a6b2",
+      "sources": [
+        "src/styles/fonts.css"
+      ]
+    },
+    "assets/icons.svg": {
+      "bytes": 3207,
+      "sha256": "f153ed1e05d7d5241467740557211f0fa0322be66035d5ac5df04c96a9980864",
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/icons/apple-touch-icon-144x144.png": {
+      "bytes": 3152,
+      "sha256": "7c08c8a7131118ea4c3142b0d95f883b5dfcb2353f91248fdbf2af2914d8f709",
+      "width": 144,
+      "height": 144,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/icons/apple-touch-icon-152x152.png": {
+      "bytes": 1789,
+      "sha256": "d431e6188070cc6cae0990885aa4020921e44406a60867cfab3281dacd083d65",
+      "width": 152,
+      "height": 152,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/icons/favicon-16x16.png": {
+      "bytes": 540,
+      "sha256": "ec5cf9822cf69d9d1e5e063ba2e3802414f9fb97aca8e0d1fb2646b5d55a594e",
+      "width": 16,
+      "height": 16,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/icons/favicon-32x32.png": {
+      "bytes": 930,
+      "sha256": "5a634fba3aa3aae45d9914b0203e1f1f17a8df6971a06df456193315b6c5606b",
+      "width": 32,
+      "height": 32,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/icons/irlurl-192.png": {
+      "bytes": 2084,
+      "sha256": "c84fbed49e37a5c09666a76a9a0ea040a247a9f06377f4f5da1495e649808017",
+      "width": 192,
+      "height": 192,
+      "sources": [
+        "site.json"
+      ]
+    },
+    "assets/icons/irlurl-384.png": {
+      "bytes": 3860,
+      "sha256": "52047c5590fce4bd4f7a3e47fee8d2b0e8c4bd26d74b0ce575d139dec2b2a76b",
+      "width": 384,
+      "height": 384,
+      "sources": [
+        "site.json"
+      ]
+    },
+    "assets/icons/irlurl-512.png": {
+      "bytes": 5215,
+      "sha256": "9265a1fc33ff70e539323b4390fa12b8eac2cc427cb8ac5d0e69262e7ff7cf53",
+      "width": 512,
+      "height": 512,
+      "sources": [
+        "site.json"
+      ]
+    },
+    "assets/icons/irlurl-thumbnail.jpg": {
+      "bytes": 86482,
+      "sha256": "ab21a1e2b60c6d0c1eaf2ebe02e634fd5a7844be2f6c41281322e455839f3f11",
+      "width": 960,
+      "height": 640,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/icons/mstile-144x144.png": {
+      "bytes": 3152,
+      "sha256": "7c08c8a7131118ea4c3142b0d95f883b5dfcb2353f91248fdbf2af2914d8f709",
+      "width": 144,
+      "height": 144,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/images/team/bree-logos.jpg": {
+      "bytes": 57146,
+      "sha256": "2a4b59fd5c0496d51aa65baaf035e63be212e49d233a0dee2111b39d79cd9c4e",
+      "width": 720,
+      "height": 280,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/bree.jpg": {
+      "bytes": 47550,
+      "sha256": "47f7e74472747f1314c0187b616646886841e3ad7cd87d79f110c7810acb3ddb",
+      "width": 980,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/bree.mp4": {
+      "bytes": 1598442,
+      "sha256": "86466173dd17422dd2a6f77fd67fe7a4bf177a3feb6fa11e24afaeaf8f455ca8",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1168,
+      "duration": 16.167,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/damian-logos.jpg": {
+      "bytes": 38628,
+      "sha256": "b176cc9c80dc412169e38061f2e2ac4df03dca67528d854e76537569f1c8da51",
+      "width": 720,
+      "height": 280,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/damian.jpg": {
+      "bytes": 54370,
+      "sha256": "df4aaeb7600212d46a4f967c92958eb164849474fc22d48b2dc9355f6d65d9f9",
+      "width": 980,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/damian.mp4": {
+      "bytes": 1536081,
+      "sha256": "71b924b73e5f79f5ae67d56169294a05d15bf04aa337a342a18481fbf9455dc7",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1168,
+      "duration": 12.917,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/frank.jpg": {
+      "bytes": 59722,
+      "sha256": "4383501bb00b52b2179459d743edc29d09017a51a0c60f6d149ca3e9df181b28",
+      "width": 980,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/frank.mp4": {
+      "bytes": 1424758,
+      "sha256": "eadcbeaa0c8204292424cc00f9fff5d5d62f6e366face7950a25ecf08aac36a2",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1168,
+      "duration": 12.683,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/new-frank-logos.png": {
+      "bytes": 116388,
+      "sha256": "086f7d0fab13a8ea6d7524c35def628cceb86e4a7fe9502cf0ff42d2284ac2bd",
+      "width": 854,
+      "height": 280,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/new-travis-logos.png": {
+      "bytes": 70693,
+      "sha256": "4dc0add1627b6bb6fc549600ea07d9dc5e4469b5ea6cd667a85d5daba0679406",
+      "width": 846,
+      "height": 283,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/travis.jpg": {
+      "bytes": 64293,
+      "sha256": "41bcf5b9be14e640f91dc5555ee99db7ba153c9cbbe71ab22088677b41b11387",
+      "width": 980,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/team/travis.mp4": {
+      "bytes": 1974665,
+      "sha256": "e9f0baf61785bd37ac3682afc88dc888c83956a39eb1dd106cf9f85bd6fd2442",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1168,
+      "duration": 16.733,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-1.jpg": {
+      "bytes": 94652,
+      "sha256": "5385ca8bfeadaa8f79c38bc485c461087dd1b831782d9a9ce5fb3227d3afaaec",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-1.mp4": {
+      "bytes": 5600978,
+      "sha256": "77e0973e492edb5f300f62f0c0c1d3b1c64c83397a1b3a58656b39abb8f02e1a",
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "duration": 11.775,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-10.jpg": {
+      "bytes": 133354,
+      "sha256": "aa50895fa4f095582a6d15a899e4d16df91824c3b691fd1983f5342bd33328cf",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-11.jpg": {
+      "bytes": 114361,
+      "sha256": "4516f2348eccc4e8ca6e2997fed8b8949fc9b82dc10e8fd1dc0fbd0e0e5a0a0a",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-12.jpg": {
+      "bytes": 71054,
+      "sha256": "1f96e0de271da029e94055963fc7f7a45d1b286890abd466b9342c0719afdbeb",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-13.jpg": {
+      "bytes": 69599,
+      "sha256": "ffd0fd9bf1daae2969b0ddb85cd14e90ae5aede5373a7e6fd5d39fc083db6e86",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-14.jpg": {
+      "bytes": 67944,
+      "sha256": "e95b246e26b7ab5b2d9c8e6509369bb117072ff34181bf22194d0a92b31c9262",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-15.jpg": {
+      "bytes": 103522,
+      "sha256": "2a8b6f1bd64d1139566c9aaa1b595fbd0da57cceba5b07a718f2f635b8e73506",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-16.jpg": {
+      "bytes": 120168,
+      "sha256": "8bf78bdd86fe155e96c6a6ae817a4a218eca1d527157b8a7d2cb9da801abbb1e",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-17.jpg": {
+      "bytes": 89858,
+      "sha256": "2a9e63f685dee1e86667997e43176b6de1c87c3c75380ff84ee2affc4cab77d7",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-2.jpg": {
+      "bytes": 103566,
+      "sha256": "f7fec8b30973ed571c7668037fc60cdf613b0ca2afa6e54b170e2c3ff76d50e2",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-2.mp4": {
+      "bytes": 7208937,
+      "sha256": "d0d81c86b2578e5a996d8324cdaa32242a5c5cd23471b1cc8ae6c8d2e21f8ab1",
+      "codec": "h264",
+      "width": 1920,
+      "height": 1080,
+      "duration": 11.605,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-3.jpg": {
+      "bytes": 115191,
+      "sha256": "ed69e123b859cb59cd14bcaf025007fa67cfd3fc6f581986ad26f47fe4a82df8",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-4.jpg": {
+      "bytes": 132680,
+      "sha256": "70e7f6ef00a2a528043fc38f499ef4f18bdd099b4ebde2a2c9f122ae62371526",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-5.jpg": {
+      "bytes": 341370,
+      "sha256": "ca0f692ef3b2a7be45acfe37f562d6fcc111057370292042a88ef87b37563c93",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-6.jpg": {
+      "bytes": 59026,
+      "sha256": "901939a860d7fd04974fb9be04cc44e3368568df19e1b702d0be0f650a042bfa",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-7.jpg": {
+      "bytes": 124544,
+      "sha256": "8cf01ad879db46f867a483a38532deb3130ae5e28df634251fa4a559843c66b6",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-8.jpg": {
+      "bytes": 99624,
+      "sha256": "3839ab61d0b605a7e168e96a3825acf04fb22d59ab1f0c86021f9af47e8bfb75",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-9.jpg": {
+      "bytes": 79873,
+      "sha256": "00eaac6affcb608095f7b540e6039b94215251de20dd0ec580efa53078183e65",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/akatsuki-cover.jpg": {
+      "bytes": 1099914,
+      "sha256": "8d41be9b4e3aa624537a6d9aa1d27b2abf14eea47979d572ec965c44db600262",
+      "width": 1920,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-1.jpg": {
+      "bytes": 285573,
+      "sha256": "507e9b80c87c92a23b94b270f2ee7333ebef4cb6c81d35951c7c87d017351107",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-1.mp4": {
+      "bytes": 11065939,
+      "sha256": "0f833af2408578f93a8cee79fb4b2247a4467c8b664ec09ba7d86220ca35fd0c",
+      "codec": "h264",
+      "width": 1226,
+      "height": 720,
+      "duration": 29.183,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-10.jpg": {
+      "bytes": 239319,
+      "sha256": "fbeb0ce365737b382fe031e51c3fe62124a7685d55b233f55ee5f9f6c2355b09",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-11.jpg": {
+      "bytes": 153683,
+      "sha256": "228672b3edba6f5927f1c5ab78c7f93df9cbb8a1c882530fb4ec52d332554645",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-12.jpg": {
+      "bytes": 126845,
+      "sha256": "794153438953c7fad99438075e82756ce2dcf754c03cecdeac2da4b783709192",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-13.jpg": {
+      "bytes": 162052,
+      "sha256": "3776d78c912789a3b6997426f0531f7327c66bef6a0a9fe845d7f6a1fc9f90d5",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-14.jpg": {
+      "bytes": 138370,
+      "sha256": "017595db27e0a9f9d4fec03ac8d7d3ace5acc8e06beb12724b6d5a5726ebcfe8",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-15.jpg": {
+      "bytes": 242234,
+      "sha256": "320109a36534539a303eced00a896fff49590ab5b431be3a9e662b2676bc9677",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-2.jpg": {
+      "bytes": 169565,
+      "sha256": "ab10565b57940e75eef24260140268d97be5f2b56b5c569858a7a634ad6229cc",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-2.mp4": {
+      "bytes": 11538857,
+      "sha256": "69a31f227f1a396f87f82240775bd7eba2fc905366e58a1f8b6c5a8f3776e590",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "duration": 30.42,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-3.jpg": {
+      "bytes": 426420,
+      "sha256": "b1451c7d48db79a89e75070f5677526ace4b2bb25b4431b8609d46ae4f2bc1f6",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-4.jpg": {
+      "bytes": 229882,
+      "sha256": "d306b8004d9af15cd4f26b1780d96ac1214e33e73ea4fb0cb6c42347c9ca0532",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-5.jpg": {
+      "bytes": 241457,
+      "sha256": "52bb473233486ed9b1bbb307b90fcc6ed0200f368eac9950391dbd1b6058f57a",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-6.jpg": {
+      "bytes": 301440,
+      "sha256": "8d8493dc8d55f51b66f8d5d686dfdc3cc93da843d00a5063ee267b7feff7a78c",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-7.jpg": {
+      "bytes": 308476,
+      "sha256": "de4357795ac889a68f2428cbb0a1a63824052a8b2407663def6b51577c45f795",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-8.jpg": {
+      "bytes": 190181,
+      "sha256": "f14a93ae79e3d4bf44d41db049fdb85f72ada4d81dab589d523a94e68c2dc70e",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-9.jpg": {
+      "bytes": 198965,
+      "sha256": "2be107a334753cc19ae50d8a0b86e02403a521c364b27b9d62368a54fa33ba71",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/images/work/drew-cover.jpg": {
+      "bytes": 293260,
+      "sha256": "f983425d5fea9a24c27417c07bf856681a3ec89e01206c16cdbb8f90656727af",
+      "width": 1920,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/models/cubes/L_1_inflated.glb": {
+      "bytes": 631756,
+      "sha256": "3ea994c177728679139082439f638b248a51ffaeda29591b897366cd813e9625",
+      "sources": [
+        "preload.json",
+        "src/js/core/preloader.js"
+      ]
+    },
+    "assets/models/cubes/L_3_suzanne2.glb": {
+      "bytes": 478724,
+      "sha256": "4dac93ff33d1a9b6efa869e13e1f493164cb665d251b7460d11d17be0e377b62",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/L_4_art cube.glb": {
+      "bytes": 246748,
+      "sha256": "0cba8ddda8567fd54e7520b282320bdbaa4c014720da76342b3f7e311696aa7d",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/L_5_rubicks.glb": {
+      "bytes": 480212,
+      "sha256": "633bb09cfd2cb34da9a926ab28d7c56e0a27c67813ac4e010619d60c4e5e9fbf",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/L_6_Sci-Fi.glb": {
+      "bytes": 559152,
+      "sha256": "aa91c7d2094d6c6c70e0f73e48ad5e18671567316bd62f3b6bbedf84838845ee",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/L_8_liquid plastic.glb": {
+      "bytes": 511828,
+      "sha256": "e044f000cae4bc959e833ca9321445abeb13e17a9c686f64c8530a7a87fff993",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/R_1_liquid metallic.glb": {
+      "bytes": 511784,
+      "sha256": "63b26fa0cefed5c333d9369bbdb5284c33aef8782235065ab781b29d8dc56d2f",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/R_5_inflated.glb": {
+      "bytes": 336668,
+      "sha256": "bb7cdc10942ddb4618262f099cc3e981056c4bded501f1b08c255cc6302b13ca",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/R_6_Speaker.glb": {
+      "bytes": 826092,
+      "sha256": "593208d92225a8ab3c6c454a0b66d7c3776eec97e995fece47fef2f063c095a3",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/R_7_minecraft.glb": {
+      "bytes": 250128,
+      "sha256": "6d6843a7d7d75cc2501692da99952d69dee91c67703287e20ce70ceedd997339",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/R_8_concret.glb": {
+      "bytes": 668052,
+      "sha256": "65f5a18ffe8065394332d5c1add7cefed93c930210d88b8fa7bd321fd365b029",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/cubes/R2_Hardware.glb": {
+      "bytes": 982604,
+      "sha256": "68dc01e12eadb788541059106fcf73f40a6093747f5f7cfbe4d52ea4bb648adf",
+      "sources": [
+        "preload.json",
+        "src/js/core/preloader.js"
+      ]
+    },
+    "assets/models/hdr/empty_warehouse_01_1k.hdr": {
+      "bytes": 1672140,
+      "sha256": "9b3d611cadc32c3a0c7e084ce5611c0650293881c4a041e7fa13748fe0dc6451",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/Logo.glb": {
+      "bytes": 15676,
+      "sha256": "8c6149d4680da8fa844f24fe8c098e82022497ac996c4a7685510aca02f24b61",
+      "sources": [
+        "preload.json"
+      ]
+    },
+    "assets/models/map.jpg": {
+      "bytes": 41640,
+      "sha256": "c735f77abceb103666819c9fe2579b94e5d877ecb71db798d54d93fa1f435b10",
+      "width": 500,
+      "height": 500,
+      "sources": [
+        "preload.json",
+        "src/js/core/preloader.js"
+      ]
+    },
+    "assets/pages/beast/collab.mp4": {
+      "bytes": 2623063,
+      "sha256": "082d955e0a47867609487c4c4fef98e8fe909afabd09403f73e3a6f4a947b20c",
+      "codec": "h264",
+      "width": 360,
+      "height": 640,
+      "duration": 52.288,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/cover_2.png": {
+      "bytes": 2139953,
+      "sha256": "b84634a8e11d519c061d322b71a85f3dc863af3ca7bd060c1db1aded3bdcc91e",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/cover.png": {
+      "bytes": 1322061,
+      "sha256": "1252c5a91b2b80a55c89bf217e3247f0ea369a3e7cd6a0e934bb1e526b6ef7d7",
+      "width": 1920,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast Panther-cookie-cutters.mp4": {
+      "bytes": 3019214,
+      "sha256": "6e16fd4175b89435d3036264c3ee29d9470df34aea16a613baa5e6094f91fe09",
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "duration": 17.993,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-13.png": {
+      "bytes": 1928877,
+      "sha256": "62e18746192ff523de01e68d32d5b83f70efeb73cdbb7ebb9fcd1557fe3a7b6e",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-14.png": {
+      "bytes": 974198,
+      "sha256": "c0f26dae58c8a8e4f04b58d918582a83ee19d1d28f2a29273b4cebba4b0696a1",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-15.png": {
+      "bytes": 1361589,
+      "sha256": "45bca2ba2cb9ead4b91e566ec0103f5b242662b1b26ba89c83c8c3524b01343a",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-17.png": {
+      "bytes": 1697929,
+      "sha256": "327f330df20a138482eed0f20ab5bc009b866682c103465ceb6ecd396a572c31",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-19.png": {
+      "bytes": 1475072,
+      "sha256": "d075ac5637811dd0537586270fcfeb202b141b78b79409ce04d88475a55e7777",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-heavyweight-hoodies.mp4": {
+      "bytes": 4106987,
+      "sha256": "4f58efae4c9e940ae0b8a9441d2f967dd2ca9f2c8a78e90a53a870c5e670705d",
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "duration": 16.623,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeast-Swag-drop.mp4": {
+      "bytes": 5124893,
+      "sha256": "80350be0d73462eab6bea6575da5e9d0e6ba74632fd160eddc17fc070a21f0c0",
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "duration": 26.075,
+      "sources": [
+        "data.json",
+        "src/data.json",
+        "src/index.html"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-1.png": {
+      "bytes": 1063438,
+      "sha256": "40b7ac62717ac93d2e664180fa0504e59b713fdb8987e19c1863ca6270bbef4b",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-10.png": {
+      "bytes": 1111610,
+      "sha256": "20dc084d5184338f243541134ab971a6db02e2d892e1b596a20107c4ae88e35e",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-11.png": {
+      "bytes": 2062782,
+      "sha256": "181310416ae5b0eba8635fefd82077b85ca43a4a8aab5a87cf7a2cc4fe1bc9fd",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-2.png": {
+      "bytes": 1543421,
+      "sha256": "4522c2cb8a93d8e1f11d35eb31c8cd7d8a2d43d5ce3e9598daa92f19867775c5",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-3.png": {
+      "bytes": 2535154,
+      "sha256": "292b6bae6962b3e380e7b343cc8fb4a917e63e27ce3b8617117176c889e2f056",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-4.png": {
+      "bytes": 1584486,
+      "sha256": "15ea654514cb0df473c095b916319b096fdd58e21f68e11c650246c8ae053469",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-5.png": {
+      "bytes": 1679305,
+      "sha256": "fe57625a3fec52679c4c8ad90206808dd77e121489081b94358edb6d9db8256d",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-6.png": {
+      "bytes": 1541174,
+      "sha256": "06e3d44a03fc27361dbd9f4d75c09ddccb5f94fafe18531dce30b05dffd92f80",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-7.png": {
+      "bytes": 1499972,
+      "sha256": "954fc6e37eb3d2a1e1a2b37b2ae8e1ef28c41902b53ca50ee7688558bb7f0092",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-8.png": {
+      "bytes": 2513595,
+      "sha256": "b57d782129f39aa2c464a5258228b86f6c9b26c1a822978425e744552e77a685",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxNaruto-9.png": {
+      "bytes": 1446822,
+      "sha256": "46cd006418ec282b1666688b9ea3787ca0354c71485f472bc0d5a457e382e8cf",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/beast/MrBeastxShaquille-oneal.mp4": {
+      "bytes": 4760887,
+      "sha256": "96d364c7ee3c2dc5a62668032b1846813a8ac043d58aff7ac38ddfd2c50196d7",
+      "codec": "h264",
+      "width": 720,
+      "height": 1280,
+      "duration": 12.745,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/Deadmau5xCatEyedBoy-Pop-Up-Tokyo.mp4": {
+      "bytes": 7140081,
+      "sha256": "f288c69aa5bbf6ec912eebcc00cd76371231a8d93982f56c528ef27f12bc627e",
+      "codec": "h264",
+      "width": 678,
+      "height": 720,
+      "duration": 29.6,
+      "sources": [
+        "data.json",
+        "src/data.json",
+        "src/index.html"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-collection-overview.png": {
+      "bytes": 554785,
+      "sha256": "eef81529c019d849ecbbb94833c8075d0f2e898891addde508c82e3ea023c821",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Cover.png": {
+      "bytes": 946170,
+      "sha256": "4427f00a0fcd874c73e959b4e64f495d5b63eb6dd08d4dd971c890bbbe141a24",
+      "width": 1920,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-longsleeve.png": {
+      "bytes": 1007748,
+      "sha256": "5cd806888773968f3bf4f62e7f2008e2e70736dca53da46ebf5b0365a1a9a3cc",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-mousepad.png": {
+      "bytes": 509959,
+      "sha256": "6d53b74407a321242d56049c57441861fb6a7c12128438740773870c3b3f1e29",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-B.png": {
+      "bytes": 349398,
+      "sha256": "c1de346a7c83c394ba22c57a2422c76a2df0824df222ec70c065f2af8e99697c",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-C.png": {
+      "bytes": 549832,
+      "sha256": "046c8b522a480cec1fc5651c15b415dec89a066b2e48246078f6734304182bde",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-D.png": {
+      "bytes": 284961,
+      "sha256": "733134ade7f84b08d4fc27995a8c84906dc58fcc44013e7a5cd26a4425cab570",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-F.png": {
+      "bytes": 461729,
+      "sha256": "0d4d73f12edc7815b0e92e953f832ac22502dece9fa1f115a49e7bf1628fb8a8",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-H.png": {
+      "bytes": 433320,
+      "sha256": "c0169aa9132de1d523939aaba7af0b0b788aec5e24cac4de8d860cdc79d1adbf",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-I.png": {
+      "bytes": 512229,
+      "sha256": "5f967dafe32e112e4f0d79538cc74e4ef5302b79873c5fba4b43ceaf7b20b3d9",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-J.png": {
+      "bytes": 391692,
+      "sha256": "6c6b7e846dd7e8aaa731737ca1601ed430e785a513698d76791bf149d0fe08ad",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-queue.mp4": {
+      "bytes": 3752350,
+      "sha256": "191263d1e2d576ec51264188114fc8bf51838391cf24880d352933d19f8fcd5a",
+      "codec": "h264",
+      "width": 540,
+      "height": 960,
+      "duration": 12.816,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-Recap.mp4": {
+      "bytes": 16581114,
+      "sha256": "cb4c67340b530815d2f058709fef528803fd51b3e33416608e64d8b61fa2720d",
+      "codec": "h264",
+      "width": 720,
+      "height": 900,
+      "duration": 21.3,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo.png": {
+      "bytes": 471696,
+      "sha256": "ef51501c84584b8eabae32ea87101ecf91923d4ae961f73dd5f15138c240599d",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Product-1.png": {
+      "bytes": 581929,
+      "sha256": "c181bc76b6e62a37fcbde1b5815f4f3b0fa81fdc8404573bf88dba357d07dc02",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Product-2.png": {
+      "bytes": 516527,
+      "sha256": "fa5ead44f04263c82549c7b6e5d71e55ffb84ca00e44b10812e02690646f90af",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Product-3.png": {
+      "bytes": 531759,
+      "sha256": "3ce314b7db0854e8f45d09c8afb5ab6a4a9485346d6752bdf278aa6ed93711bd",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Product-4.png": {
+      "bytes": 313887,
+      "sha256": "6dd8964b6b91513d20f52541a03b5dbae14c5d2b2017a0dd6185f2c090f5967e",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Slipmat.png": {
+      "bytes": 873673,
+      "sha256": "e12be52ce9b6d053d671cdad4112ef8e862c50827e6954b7f1c25c87bde72bba",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Deadmau5-Sweater.png": {
+      "bytes": 1323734,
+      "sha256": "f51c54120bb317e8facb4be215c5d0a78825b9c9736fd7e4c2c38ed86c9b2dcc",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Kazuo-Umezz.mp4": {
+      "bytes": 1125933,
+      "sha256": "e43ae205b57f7f5ffbaed3e4263ad5f5989157ee085a773c8ed701d889cbfc6a",
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "duration": 7.684,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/dead/irlURL-Pop-up-Tokyo.mp4": {
+      "bytes": 3562147,
+      "sha256": "25c1839ae7fc134fd043de0964ebf80c0b46b7fc30c886f3401be2ffe3a3ede3",
+      "codec": "h264",
+      "width": 576,
+      "height": 1024,
+      "duration": 23.914,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-Founders-Kit.webp": {
+      "bytes": 144052,
+      "sha256": "e1123f526b43c1fbbb6b879515c28255a84a1ccc2749bc8bf7f9c8bd7a09ae1b",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie-NFC.mp4": {
+      "bytes": 2671273,
+      "sha256": "b39bc5a1c0e23a6c471d1a37b709268f90150d42ba8f5238a90223587dcfbb23",
+      "codec": "h264",
+      "width": 480,
+      "height": 848,
+      "duration": 14.9,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie.mp4": {
+      "bytes": 2537315,
+      "sha256": "5a4f9e69bb46af54bcdadb28b7cbff9c4d423deac6f78fd76afcd3e320eb3996",
+      "codec": "h264",
+      "width": 720,
+      "height": 720,
+      "duration": 14.7,
+      "sources": [
+        "data.json",
+        "src/data.json",
+        "src/index.html"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-1.webp": {
+      "bytes": 81216,
+      "sha256": "8ed8ec7c40be8ce98c2c940ebe8332bb1a752c0faf26ea4948cc50b004c5cdeb",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-2.webp": {
+      "bytes": 46468,
+      "sha256": "42b1656a8db2bed35306bbab431df383789a9e5f935c330ee7a5303f7e404f92",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-3.webp": {
+      "bytes": 66160,
+      "sha256": "bbcb6772134c997e1d1f06998991ceddcda42af5ced8f45b0623d4412d4fe2f1",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-4.webp": {
+      "bytes": 57822,
+      "sha256": "adc53e589beb8649640998c86d96ae61956cd1ea66bf7e4add7e60e03a1a7c8b",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-5.webp": {
+      "bytes": 107212,
+      "sha256": "922289e9f5e07537b16f14415274f7209438cb9622ce8db1377c2485e5bdc955",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-6.webp": {
+      "bytes": 54782,
+      "sha256": "18f0efea01ecd8bfac2d82a86eabf1c293264a2d1d7324d2be0a2f7d4e5b58ba",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-7.webp": {
+      "bytes": 90274,
+      "sha256": "06304358f3f300a2965c854a6481f5da610e4c47d36fcc90c39ff653161214e7",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Demon.mp4": {
+      "bytes": 5956432,
+      "sha256": "44e0555abb8b821626226c5402b979535b7de5ae7958fb726b6056c478b8bbcf",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1078,
+      "duration": 13.583,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-CloneX.mp4": {
+      "bytes": 9283426,
+      "sha256": "2e8bf74e46b40e2b4db05a3900b7cb9e38a3c424b18b3fb6ecc4101839e0f745",
+      "codec": "h264",
+      "width": 1280,
+      "height": 720,
+      "duration": 87.96,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Cover.webp": {
+      "bytes": 93622,
+      "sha256": "fac6f9063adb4244968a171f875b49844793e45cf592ce77487119f46a05d8f5",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Footballverse-2.webp": {
+      "bytes": 127538,
+      "sha256": "ff5310d6148de9329f515d6a08dab5051e01167b96b4ace64b39c5a91750af88",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Footballverse.mp4": {
+      "bytes": 3891705,
+      "sha256": "95ccfba91fbb87005fbef1815a0eb243fb01d1d9422846d44bea8c5cd1af9af4",
+      "codec": "h264",
+      "width": 720,
+      "height": 720,
+      "duration": 20,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Footballverse.webp": {
+      "bytes": 119104,
+      "sha256": "f4ebef3de6caf3338ea4008e6bb3010c5fc0058d8aacf571d5961fdfe194c2f9",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Founders-Kit-1.webp": {
+      "bytes": 36270,
+      "sha256": "9f8a57dd85fdcb7998ba431f8ef61ba247d18ffdf320700353d983543db6cea9",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Founders-Kit-4.webp": {
+      "bytes": 179280,
+      "sha256": "b5d4f90b607cf16923f307b32427faeb7b46412101484f50b8c763c877126bbb",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie-2.webp": {
+      "bytes": 83228,
+      "sha256": "50b797f8dddcfc7334472b26e31cf2c9f21aeea9dae9e63716afde5a94ee656d",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie-3.webp": {
+      "bytes": 117444,
+      "sha256": "f8c16c3d4b0685fa4923585eabcc26ff0d8ac4b9e5a7abfd3485afaba6a46817",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie.webp": {
+      "bytes": 249426,
+      "sha256": "6f588fa784479e80c213499667647b56080e910c9b031d83a30f487af55e7ee5",
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-1.png": {
+      "bytes": 624891,
+      "sha256": "3e33a1314290601ff1677a7033aaadb59bc8b8f39b64bbd26d5a85cf4b0aa245",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-2.png": {
+      "bytes": 428417,
+      "sha256": "739d285947912905209631b3145910a89d74cc9f98963d6b847cf209cd544af8",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-4.png": {
+      "bytes": 556471,
+      "sha256": "8ea5a07fa90de224fb4fa1defac32954dd32757b4c2c94dd5973a8b0469d94ce",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Coastal-Classics.png": {
+      "bytes": 774824,
+      "sha256": "baea42e47f41a6ebde7c148252c39192d302e9212964312ed2b60b7735041ca9",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Coastal-Classics3.png": {
+      "bytes": 491808,
+      "sha256": "5c11958d0eba00e83c249d2894aaead609d12767cd8d57129d6d018b5f2452ab",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Cover3.png": {
+      "bytes": 1403953,
+      "sha256": "8dc8de91a4ab2c3b5647a30a719b165b1511da6cac60a57c383bf46a93515551",
+      "width": 1920,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Disney-Little-Mermaid-photo.png": {
+      "bytes": 502704,
+      "sha256": "9ed2eb993bafe0add92e3102c873462874102bf2a6154c3e2a4ba777511f1eda",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Disney-Little-Mermaid.mp4": {
+      "bytes": 6092194,
+      "sha256": "80c9dc8311480d018a1ce32502735dc6df3c49bb32b691eb0893ffc1a613d08f",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": 7.455,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Pink-Palm-Passport.mp4": {
+      "bytes": 655474,
+      "sha256": "df03a0c724db9a4b3b4b0026a1e8980a497259f1c0a99e7c59a1b5d57515154d",
+      "codec": "h264",
+      "width": 720,
+      "height": 900,
+      "duration": 3.133,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-1.png": {
+      "bytes": 997022,
+      "sha256": "d719b11c9bc72690130d40aa9e6d67815ac39e70c977bfc8883a438aeca09bf9",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-2.png": {
+      "bytes": 526792,
+      "sha256": "cfb0b18caf387734dd1e8ba7608500195a8db2fe7f94fb480ee0d6068f09134b",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-3.png": {
+      "bytes": 453211,
+      "sha256": "79031144e41cdb5635dbc986d0939893dc63e50afde7d8e9c1da37e45cee4602",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-4.png": {
+      "bytes": 477043,
+      "sha256": "83494a65cb0c844435ef80b984b848a5695aa730cd2cbd23c2b4701bc39fb85d",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-6.png": {
+      "bytes": 847491,
+      "sha256": "49690b8baabcda91361a7365e33d4b51c18eedfae1a87e24ef8877c1998a1dee",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Slippers.png": {
+      "bytes": 552339,
+      "sha256": "56b751e52951b83d8edf9ac1713c457b82e97ad83ca86e87d9c9270784e33efc",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-sweats.png": {
+      "bytes": 1010184,
+      "sha256": "4aebb1f0092894d053189b136a192834490f8b61e8b9dc2848dc0d9da15ca9ce",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-2.png": {
+      "bytes": 757497,
+      "sha256": "52da5b51cee9ce313a0415081d9507ce01bdd4ebb70a435221fcd249dd9af870",
+      "width": 1920,
+      "height": 1080,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-3.png": {
+      "bytes": 500506,
+      "sha256": "a0d6b70c8274567f5ec6e976e6b49bc03c204e48de89e6b2095a761bf82b18f5",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-4.png": {
+      "bytes": 364153,
+      "sha256": "e3934e43b7eb172f80e83db29aa986e7f83a47f9864574099617378624e75cb4",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-5.png": {
+      "bytes": 453088,
+      "sha256": "528e88acce13d5d927d6a053f02987b95bf6541bd200ea2a07180749e1011b24",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/irlURL-Pink-Palm-Puff-Wings.png": {
+      "bytes": 608593,
+      "sha256": "29bc7c3f1c9a3b36673ba17e62dce2853ec41eadfca8e9167bfdaed2ee21c0bf",
+      "width": 900,
+      "height": 1200,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/pages/pink/Little-Mermaid.mp4": {
+      "bytes": 6092194,
+      "sha256": "80c9dc8311480d018a1ce32502735dc6df3c49bb32b691eb0893ffc1a613d08f",
+      "codec": "h264",
+      "width": 1080,
+      "height": 1920,
+      "duration": 7.455,
+      "sources": [
+        "data.json",
+        "src/data.json"
+      ]
+    },
+    "assets/videos/akatsuki.mp4": {
+      "bytes": 610045,
+      "sha256": "6f49c655707e655fa3caca6a40927ccf2c9d47ac224bdf6a5bc027b2e1e78a90",
+      "codec": "h264",
+      "width": 540,
+      "height": 540,
+      "duration": 5.098,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/videos/bree.mp4": {
+      "bytes": 662570,
+      "sha256": "f986caf49f772da0e6bf2ddea9569162dac72dae8fc9cbc8bddcd1d94a2d783e",
+      "codec": "h264",
+      "width": 540,
+      "height": 540,
+      "duration": 10.41,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/videos/damian.mp4": {
+      "bytes": 791989,
+      "sha256": "6674d1aefc6afaa1af01b92828a25bfc73c26e367aef62dc46d50797907c2062",
+      "codec": "h264",
+      "width": 540,
+      "height": 540,
+      "duration": 10.41,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/videos/drew.mp4": {
+      "bytes": 1363642,
+      "sha256": "db6490f07d9a081c36b94032fec3f48ff05f632ea7dd5f6c42b22aae139393ca",
+      "codec": "h264",
+      "width": 540,
+      "height": 540,
+      "duration": 5.567,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/videos/frank.mp4": {
+      "bytes": 736001,
+      "sha256": "1d11ec3d56a6b32e506c9239ab6d567990db6cd49eaf0484eabf5e45e2fc13ed",
+      "codec": "h264",
+      "width": 540,
+      "height": 540,
+      "duration": 10.41,
+      "sources": [
+        "src/index.html"
+      ]
+    },
+    "assets/videos/travis.mp4": {
+      "bytes": 843632,
+      "sha256": "4d8a7932fa51e22c539c15e20bac7fdc0db0e7539b2eb82b27bce553aa3d448f",
+      "codec": "h264",
+      "width": 540,
+      "height": 540,
+      "duration": 10.41,
+      "sources": [
+        "src/index.html"
+      ]
+    }
+  }
+}

@@ -1,0 +1,282 @@
+@media (min-width: 1101px) {
+  .scroll-target {
+    background:
+      repeating-linear-gradient(
+        180deg,
+        transparent 0,
+        rgba(255, 0, 0, 0.5) 333.3333333333vh
+      ),
+      repeating-linear-gradient(
+        180deg,
+        transparent 0,
+        transparent 200px,
+        rgba(255, 0, 0, 0.5) 0,
+        rgba(255, 0, 0, 0.5) 201px
+      );
+    height: 1400vh;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 10px;
+    z-index: 10;
+  }
+  main {
+    position: relative;
+  }
+  .menu-on main {
+    opacity: 0 !important;
+  }
+  main section {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100vh;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  main section aside {
+    opacity: 0;
+  }
+  main section h3 {
+    left: calc(9.2% + 72px);
+    opacity: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 8%;
+    -webkit-transform: translateY(20px) skewY(10deg);
+    transform: translateY(20px) skewY(10deg);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  }
+  body.indicator-on main section h3 {
+    opacity: 0;
+  }
+  main section.on {
+    pointer-events: all;
+  }
+  main section.on h3 {
+    opacity: 1;
+    -webkit-transform: translateY(0) skewY(0);
+    transform: translateY(0) skewY(0);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  main section.on aside {
+    opacity: 1;
+  }
+  section#intro aside {
+    padding: 8% 4.6% 8% calc(9.2% + 72px);
+  }
+  section#intro aside h2 {
+    max-width: 880px;
+    position: absolute;
+    top: calc(50% - 46px);
+  }
+  section#intro aside .copy {
+    bottom: 8%;
+    position: absolute;
+  }
+  section#work {
+    padding: 8% calc(9.2% + 72px);
+  }
+  section#work aside {
+    padding-top: 60px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  section#work aside ul {
+    height: 100%;
+    width: 100%;
+  }
+  section#work aside ul li {
+    display: block;
+    font-size: 80px;
+    margin-bottom: 60px;
+  }
+  section#work aside ul li a * {
+    pointer-events: none;
+  }
+  section#work aside ul li a:after {
+    content: attr(data-desc);
+    display: block;
+    font-size: 24px;
+    line-height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+    white-space: nowrap;
+  }
+  section#work aside ul li a:hover:after {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  section#services {
+    padding: 8% calc(9.2% + 72px);
+  }
+  section#services aside {
+    height: 90%;
+    padding: 0;
+    position: relative;
+    top: 16%;
+  }
+  section#services aside ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  section#services aside ul li {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    font-size: 24px;
+    height: 33%;
+    line-height: 1.2em;
+    min-width: 33.33%;
+    padding: 0 60px 0 50px;
+    position: relative;
+    width: 33.33%;
+  }
+  section#services aside ul li:last-child {
+    font-size: 18px;
+    max-width: 480px;
+    width: 66.66%;
+  }
+  section#services aside ul li span {
+    font-family: Pixel;
+    font-size: 34px;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  section#services aside ul li small {
+    font-family: "Serif";
+  }
+  section#about aside {
+    padding: 8% 4.6% 8% calc(9.2% + 72px);
+  }
+  section#about aside h2 {
+    max-width: 760px;
+  }
+  section#about aside .copy,
+  section#about aside p.large {
+    margin-top: 30px;
+  }
+  section#mission aside {
+    padding: calc(50vh - 46px) 4.6% 8% calc(9.2% + 72px);
+  }
+  section#mission aside h2 {
+    max-width: 720px;
+  }
+  section#mission aside p.large {
+    margin-top: 10px;
+  }
+  section#mission aside .copy {
+    bottom: 8%;
+    position: absolute;
+  }
+  section#purpose aside {
+    padding: calc(50vh - 46px) 4.6% 8% calc(9.2% + 72px);
+  }
+  section#purpose aside h2 {
+    max-width: 720px;
+  }
+  section#purpose aside p.large {
+    margin-top: 10px;
+    max-width: 780px;
+  }
+  section#vision aside {
+    padding: calc(50vh - 46px) 4.6% 8% calc(9.2% + 72px);
+  }
+  section#vision aside h2 {
+    max-width: 520px;
+  }
+  section#vision aside p.large {
+    margin-top: 10px;
+    max-width: 780px;
+  }
+  section#vision aside .copy {
+    bottom: 8%;
+    position: absolute;
+  }
+  section#vision aside h4 {
+    margin-bottom: 20px;
+  }
+  section#team {
+    padding: 8% calc(9.2% + 72px);
+  }
+  section#team aside {
+    padding-top: 60px;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  section#team aside ul {
+    height: 100%;
+    width: 100%;
+  }
+  section#team aside ul li {
+    display: block;
+    font-size: 80px;
+    margin-bottom: 60px;
+  }
+  section#team aside ul li a * {
+    pointer-events: none;
+  }
+  section#team aside ul li a:after {
+    content: attr(data-desc);
+    display: block;
+    font-size: 24px;
+    line-height: 100%;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+  section#team aside ul li a:hover:after {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  section#outro aside {
+    padding: 8% 4.6% 16% calc(9.2% + 72px);
+  }
+  section#outro aside figure {
+    left: calc(9.2% + 72px);
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  section#outro aside figure svg {
+    fill: #fff;
+  }
+  section#outro aside .copy {
+    bottom: 8%;
+    position: absolute;
+  }
+  section#outro aside .copy p {
+    margin-top: 16px;
+  }
+  section#outro aside .social li {
+    margin-bottom: 8px;
+  }
+}

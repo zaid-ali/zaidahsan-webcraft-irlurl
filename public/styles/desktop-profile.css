@@ -1,0 +1,229 @@
+@media (min-width: 1101px) {
+  .profile {
+    background-color: rgba(34, 34, 34, 0);
+    display: none;
+    height: 100%;
+    left: 0;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    -webkit-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+    width: 100%;
+    z-index: 5;
+  }
+  body.profile-open .profile {
+    display: block;
+  }
+  body.menu-on .profile {
+    display: none !important;
+  }
+  .profile:after {
+    background-color: #f37330;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.4s
+      cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: -webkit-transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition:
+      transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1),
+      -webkit-transform 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    width: 100%;
+  }
+  body.profile-loading .profile:after {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  body.profile-ready .profile {
+    background-color: #222;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+  }
+  body.profile-ready .profile:after {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  .profile .close-btn {
+    height: 40px;
+    overflow: hidden;
+    position: fixed;
+    right: 4.6%;
+    top: 8%;
+    width: 40px;
+    z-index: 1;
+  }
+  .profile .close-btn:hover path:first-child {
+    -webkit-animation: scaling 1.5s linear infinite;
+    animation: scaling 1.5s linear infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-transform-origin: top right;
+    transform-origin: top right;
+  }
+  .profile .close-btn:hover path:nth-child(2) {
+    -webkit-animation: scaling 2s linear infinite;
+    animation: scaling 2s linear infinite;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+  }
+  .profile .close-btn svg {
+    fill: #f37330;
+    left: 0;
+    position: absolute;
+    top: 0;
+  }
+  .profile .close-btn svg.close1 {
+    top: calc(50% - 3px);
+    -webkit-transform: rotate(45deg) translate(0);
+    transform: rotate(45deg) translate(0);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+  }
+  .profile .close-btn svg.close1,
+  .profile .close-btn svg.close2 {
+    left: 0;
+    -webkit-transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .profile .close-btn svg.close2 {
+    top: calc(50% - 2px);
+    -webkit-transform: rotate(-45deg) translate(0);
+    transform: rotate(-45deg) translate(0);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+  }
+  .profile .content {
+    opacity: 0;
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+    -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+    will-change: transform;
+  }
+  body.profile-ready .profile .content {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+  .profile .content section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+  .profile .content section > div {
+    width: 50%;
+  }
+  .profile .content section > div.right {
+    position: sticky;
+    right: 0;
+    top: 0;
+  }
+  .profile .content section > div.left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding: 8% 4.6% 0 calc(9.2% + 72px);
+  }
+  .profile .content section > div.left .top {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .profile .content section > div.left .bottom {
+    padding-bottom: 8%;
+  }
+  .profile .content section > div.left .off {
+    opacity: 0;
+  }
+  .profile .content section > div.left .off.on {
+    opacity: 1;
+  }
+  .profile .content section > div.left h2,
+  .profile .content section > div.left img,
+  .profile .content section > div.left p,
+  .profile .content section > div.left small {
+    opacity: 0;
+    -webkit-transform: translateY(50px) scaleY(1.2);
+    transform: translateY(50px) scaleY(1.2);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+    -webkit-transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  body.profile-ready .profile .content section > div.left h2,
+  body.profile-ready .profile .content section > div.left img,
+  body.profile-ready .profile .content section > div.left p,
+  body.profile-ready .profile .content section > div.left small {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  .profile .content section > div.left h1 {
+    font-size: 60px;
+    letter-spacing: -1.2px;
+    line-height: 75.6px;
+  }
+  .profile .content section > div.left h2 {
+    font-size: 24px;
+    line-height: 1em;
+    margin-bottom: 30px;
+    -webkit-transition-delay: 1s;
+    transition-delay: 1s;
+  }
+  .profile .content section > div.left p {
+    -webkit-transition-delay: 1.2s;
+    transition-delay: 1.2s;
+  }
+  .profile .content section > div.left small {
+    display: block;
+    font-family: Pixel;
+    margin: 30px 0;
+    text-transform: uppercase;
+    -webkit-transition-delay: 2s;
+    transition-delay: 2s;
+  }
+  .profile .content section > div.left img {
+    -webkit-transition-delay: 2.2s;
+    transition-delay: 2.2s;
+  }
+  .profile .content section > div figure {
+    height: 100vh;
+    min-height: 50vw;
+    position: relative;
+    width: 100%;
+  }
+  .profile .content section > div figure img,
+  .profile .content section > div figure video {
+    height: 100%;
+    left: 50%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+}

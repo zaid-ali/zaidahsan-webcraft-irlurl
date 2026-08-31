@@ -1,0 +1,1350 @@
+{
+  "team": [
+    {
+      "id": "travis",
+      "hidden": false,
+      "name": "Travis Anderson",
+      "styled": "[Tra]vis Ander{son}",
+      "title": "President",
+      "bio": "Travis is a brand-building storyteller and creative entrepreneur with over 25 years experience in the global branding, fashion, streetwear and advertising spaces. He has worked with a number of notable brands, retailers and celebrities and managed successful product launches in the USA, UK, EU, China, Japan, Brazil, Canada, Australia and South Africa. His ability to create brands and brand concepts in addition to an acute eye for quality and aesthetic makes him a versatile thinker and communicator. Travis is driven by collaboration and purpose and enjoys working with a diverse portfolio of clients.",
+      "image": "assets/images/team/travis.jpg",
+      "video": "assets/images/team/travis.mp4",
+      "logos": "assets/images/team/new-travis-logos.png"
+    },
+    {
+      "id": "bree",
+      "hidden": true,
+      "name": "Bree Morrison",
+      "styled": "[Br]ee Morr{ison}",
+      "title": "Director of Product",
+      "bio": "Bree is an intuitive apparel development specialist with over 18 years experience in the fashion and streetwear space. She has worked across multiple categories creating white label, licensed and branded products. She thrives on ensuring that each product exceeds expectations, and is constantly thinking of ways to improve. Bree is instrumental in taking ideas from concept through to tangible products, committed to building a conducive work environment and pushing for environmental sustainability wherever possible.",
+      "image": "assets/images/team/bree.jpg",
+      "video": "assets/images/team/bree.mp4",
+      "logos": "assets/images/team/bree-logos.jpg"
+    },
+    {
+      "id": "frank",
+      "hidden": false,
+      "name": "Frank van Rooijen",
+      "styled": "[Fra]nk van Roo{ijen}",
+      "title": "Creative Director",
+      "bio": "Frank is a multi versatile International Creative Director bringing 20 years of experience in the creative industry. He has worked at some of the most globally renowned ad and digital agencies with some of the world's most iconic brands. His extensive background of expertise includes brand creation, advertising, design, fashion & apparel, esports, omnichannel marketing campaigns, TV, content creation, music production, social media and influencer marketing, emerging tech, and traditional media. As a creative entrepreneur, Frank has co-founded a design studio, a clothing brand, a music production company, and a boutique agency at Ogilvy & Mather.",
+      "image": "assets/images/team/frank.jpg",
+      "video": "assets/images/team/frank.mp4",
+      "logos": "assets/images/team/new-frank-logos.png"
+    },
+    {
+      "id": "damian",
+      "hidden": true,
+      "name": "Damian Estrada",
+      "styled": "[Da]mian Est{rada}",
+      "title": "Creative Marketing Director",
+      "bio": "Damian Estrada is a strong Creative Director, Marketer, and Producer with 10 years experience in the gaming and esports space. His early years were spent covering events and conventions. Shortly after, he landed himself at Team Liquid leading content and building 1UP Studios from the ground up. In recent years he has been heavily focused on brand and apparel marketing, launching collaborations with Marvel, tokidoki, Naruto: Shippuden, and Attack on Titan.",
+      "image": "assets/images/team/damian.jpg",
+      "video": "assets/images/team/damian.mp4",
+      "logos": "assets/images/team/damian-logos.jpg"
+    }
+  ],
+  "pages": [
+    {
+      "id": "nike",
+      "content": [
+        {
+          "type": "cover",
+          "url": "assets/pages/nike/irlURL-Nike-RTFKT-Cover.webp",
+          "title": "Nike x RTFKT",
+          "subtitle": "WHERE DIGITAL AND PHYSICAL BECOME ONE"
+        },
+        {
+          "type": "intro",
+          "scope": "Apparel Innovation, Product Design & Development, Digital-to-Physical Product Translation, Tech Integration (NFC & AR), Licensing & Brand Collaborations, Production & Manufacturing, Operations Management",
+          "p1": "For Nike and RTFKT we plugged in as apparel innovation and product development specialists, helping bring some of the most ambitious digital-to-physical crossovers in sport and gaming to life.",
+          "p2": "Our work spans two connected worlds: designing new physical product for Nike's .SWOOSH digital community, and developing the physical counterparts to RTFKT's most sought-after digital collectibles, wearables built to exist as convincingly on an avatar as they do on a person."
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "For Nike's .SWOOSH platform, we developed the \"Meet Your Guide\" hoodie, reintroducing the goddess Nike, the brand's original muse, through a design that lives in both digital and physical environments. A stamped \"health bar\" graphic on the front and a three-dimensional grid concept on the back render the goddess as both a torch to Nike's past and a beacon to its future."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie-2.webp"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Guide-Hoodie-3.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-Founders-Kit.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "We also helped develop the Nike x EA SPORTS FC Founders shirt, a collaboration bridging .SWOOSH and EA SPORTS FC 25 that translated the in-game Founders kit into a real-world long-sleeve, complete with luminescent Tron-style piping that comes alive under low light."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush-2-1",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Founders-Kit-4.webp"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Founders-Kit-1.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "For RTFKT, our role centered on making the digital tangible. The RTFKT x Nike AR Genesis Hoodie exists as both a wearable digital asset for avatars and a real-world hoodie, built with an embedded NFC chip for digital authentication and a front QR code that triggers live 3D AR effects through mobile filters; all 8,888 editions sold out immediately."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "narrow-wide",
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie-NFC.mp4"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-AR-Hoodie.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "We also developed the Real-World Footballverse Jersey, translating a digital collectible's reflective, iridescent detailing into physical fabric through custom textile treatments built to catch light the same way its digital counterpart did on screen, turning a digital collectible into a tangible piece of football culture fans could actually wear."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Footballverse.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush",
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Footballverse.mp4"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-Footballverse-2.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "And we developed the CloneX collection, 11 unique physical garments, each engineered to mirror the distinct DNA of its corresponding digital avatar down to the material, colorway and craft technique. Because each Clone's DNA determined its rarity, the physical pieces inherited that same scarcity; only 20 Murakami DNA jackets were ever produced, making them as exclusive in the real world as the avatars they were built from."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush",
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Demon.mp4"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-1.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-2.webp"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-3.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-4.webp"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-5.webp"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Across both partnerships, the work comes down to the same question: how do you make a digital idea feel real without losing what made it special in the first place? Whether it's a goddess rendered in stitched grid lines or a hoodie that unlocks an AR experience through a QR code, we design and produce product that treats the physical and digital as one continuous world, not two separate ones."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "flush",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-6.webp"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/nike/irlURL-Nike-RTFKT-CloneX-Apparel-7.webp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "akatsuki",
+      "content": [
+        {
+          "type": "cover",
+          "url": "assets/images/work/akatsuki-cover.jpg",
+          "title": "The Akatsuki Collection",
+          "subtitle": "LIQUID x NARUTO"
+        },
+        {
+          "type": "intro",
+          "scope": "Ideation,Creative Direction,Licensing,Product Design & Development,Photo & Video Shoot Production,Styling & Art Direction,Production,Ethical Sourcing,Sustainable Production Solutions,Operations Management",
+          "p1": "For Team Liquid we arranged a brand collaboration with Naruto Shippuden that consisted of the creation of a fully custom cut & sew apparel collection with unique and collectible pieces. The aim of the brand collaboration was threefold. 1. To position Team Liquid at the crossroads of anime, gaming, and esports. 2. Grow Team Liquid's fanbase. 3. Capitalize on the commercial opportunity.",
+          "p2": "For Team Liquid's sophomore Naruto release, we bridged the gap between gaming and anime with a heightened focus on the edge and energy of Naruto's most nuanced character group:<br>The Akatsuki."
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-1.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "text",
+              "val": "Our task was to create, manufacture and handle the collection and its drop from A to Z. We arranged the license deal for the collaboration, did the collection and product design for 17 pieces of clothing and 6 accessories, prepared the tech packs, and worked with our trusted production partners to ensure that the collection was manufactured to the highest standards, was ethically sourced and planet-friendly.<br><br>We also helped Team Liquid with the creation of the digital campaign component of the collection drop and handled the concept and Art & Creative Direction of the campaign, as well as talent & operations management."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-2.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-3.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-4.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "text",
+              "val": "Nowadays, commerce and brand connection are interconnected and equally important. So in order to create the best possible fan & shopping experience, we created an omnichannel campaign with a frictionless path to purchase which included us handling order fulfillment."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 3,
+          "class": "nospace",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-5.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-6.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-7.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "text",
+              "val": "With a combination of highly engaging in-universe and product-first content we attracted new fans and customers with a marketing strategy focused on community building, paid social, PR, and cross-pollination between endemic and non-endemic influencers and IP fans. We also brought existing Team Liquid & Akatsuki fans closer to both brands via intriguing content and storytelling."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-8.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-9.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/images/work/akatsuki-1.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-10.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-11.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-12.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-13.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-14.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/images/work/akatsuki-2.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-15.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-16.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/akatsuki-17.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "drew",
+      "content": [
+        {
+          "type": "cover",
+          "url": "assets/images/work/drew-cover.jpg",
+          "title": "Drew House",
+          "subtitle": "BRAND, COLLECTIONS & POP-UP STORE"
+        },
+        {
+          "type": "intro",
+          "scope": "Ideation,Creative Direction,Brand Creation,Licensing,Concept To Market,Product Design & Development,Production,Ethical Sourcing,Production Solutions,Operations Management,Pop Up Experiences,Global Strategy and Implementation,",
+          "p1": "This was a project that two of our co-founders worked on in their own capacity. They were tasked with creating a brand for SB Projects, Justin Bieber, and Ryan Good in the streetwear/ youth fashion space. The brief was to emulate mid to late 90's fashion and styling yearning back to oversized pants, pop punk, So Cal valley culture, and a general good time!",
+          "p2": "As a starting point, we created a visual direction, color palette, logo identity, and typeface. From there we built our trim packs, collection overviews, and a roadmap to brand & product launch. Essentially creating a business and a brand from a sample pair of corduroy pants."
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/images/work/drew-1.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "text",
+              "val": "The result was phenomenal with the initial launch offering hotel slippers, neutral tone, and meta-styled oversized garments, as well as a shoot directed and shot by Joe Termini.<br><br>The following project involved launching a pop-up store in Hong Kong. We conceptualized and mocked up a retail space based upon an early 90’s style video store in the Valley. Partnering with Clot to manage operations the space came to life with arcade games, neon lights, and branded video cassette cases (from the last remaining supplier in the world). Needless to say, it was an incredibly tight timeline and production ran up to the minute, but it was a huge success with over 3,500 attendees and global press coverage from Hypebeast, High Snobiety, Vogue, etc."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-1.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-2.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-3.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "text",
+              "val": "Beyond this, our scope of work entailed designing and building out further clothing collections, a pop-up in Shanghai, a collaboration with the W Hotel in Shanghai, and a booth at YOHO.<br><br>The Drew House brand continues to flourish today with exponential growth year on year, global distribution, and strong branding within the space."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/images/work/drew-2.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-4.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-5.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-6.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-7.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-8.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-9.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-10.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-11.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-12.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-13.jpg"
+            },
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-14.jpg"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/images/work/drew-15.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beast",
+      "content": [
+        {
+          "type": "cover",
+          "url": "assets/pages/beast/cover.png",
+          "title": "MrBeast",
+          "subtitle": "BUILDING THE PRODUCT ENGINE BEHIND THE BIGGEST CHANNEL ON YOUTUBE"
+        },
+        {
+          "type": "intro",
+          "scope": "Product Design & Development, Licensing & Brand Collaborations, Athletic Wear & Accessories Design, Special Collection Development, Social Media Management & Content Creation, E-commerce & Fulfillment, Ethical Sourcing, Operations & Logistics",
+          "p1": "For MrBeast, we plugged in as the product engine behind an already-massive brand, designing, developing, and scaling entire product lines across athletic wear, tees, hoodies, jerseys, sweatpants, shorts, backpacks, and Back to School collections. Alongside accessories like caps, beanies, skate decks, sticker packs, bags, socks, basketballs, footballs, shoelaces, mouse pads, and water bottles.",
+          "p2": "Our partnership was about giving one of the largest audiences on the internet more ways to wear, use, and collect the brand they already show up for every day. We helped to expand MrBeast's product world across categories, as well as running the ecommerce, fulfillment, and social engine that keeps it all moving."
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/cover_2.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Our task spanned the full product lifecycle for MrBeast.store. Designing and developing new product lines from concept to production, standardizing fits and quality across categories, and building out special collections tied to the main MrBeast YouTube channel and specific cultural moments, including the Beast Games collection linked to the hit Amazon original series, and product lines for sister brand Feastables."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeast-17.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/beast/MrBeastxShaquille-oneal.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeast-13.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 3,
+          "class": "no-item-padding",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeast-14.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeast-15.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeast-19.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "<b style='font-weight: bold;'>FEATURED COLLABORATION <br/> MRBEAST x NARUTO - 2 WORLDS COLLIDE</b> <br><br> One of the standout projects in our partnership was facilitating and building the MrBeast x Naruto collaboration from scratch. Designing a full collection that authentically bridged one of YouTube's biggest creators with one of anime's most iconic franchises. The collection embodied perseverance, teamwork, and the conviction that any individual can achieve the extraordinary through dedication and community.<br><br> <i>\"This is a full-circle moment for me. I grew up watching Naruto. It's a story about starting from nothing, outworking everyone, and never quitting. Those themes shaped how I think about creating and building. Partnering with Naruto is honestly surreal.\" - Jimmy Donaldson, MrBeast</i>"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven-video",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-1.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/beast/collab.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-3.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-2.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-7.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-6.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven-image",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-4.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-5.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "text",
+              "val": "From concept through production, we led the design and development of the full range: tees, long sleeves, hoodies, jackets and headwear, translating iconic Naruto imagery and characters into a collection that felt true to the anime's world while still unmistakably MrBeast."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-8.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-9.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-10.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/beast/MrBeastxNaruto-11.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Beyond product, we ran the engine that kept MrBeast.store connected to its audience day-to-day. We managed social media and content creation for the MrBeast.store Instagram, a channel with 1.4+ million followers, and handled the complete ecommerce and fulfillment program end to end, so every drop, from a single sticker pack to a full apparel collection, reached fans reliably and on time.<br><br>For a brand operating at MrBeast's scale, the challenge wasn't building demand; it was keeping up with it. We helped do that by treating product like content: fast-moving, culturally connected, and built for an audience that expected something new. Whether it was a Back to School collection, a Naruto collaboration, or the next Beast Games drop, our role was to make sure the product was always ready to meet the moment."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 3,
+          "content": [
+            {
+              "type": "video",
+              "val": "assets/pages/beast/MrBeast-Swag-drop.mp4"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/beast/MrBeast Panther-cookie-cutters.mp4"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/beast/MrBeast-heavyweight-hoodies.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pink",
+      "content": [
+        {
+          "type": "cover",
+          "url": "assets/pages/pink/irlURL-Pink-Palm-Puff-Cover3.png",
+          "title": "Pink Palm Puff",
+          "subtitle": "BUILDING THE WORLD OF PINK PALM PUFF"
+        },
+        {
+          "type": "intro",
+          "scope": "Product Design & Development, Swimwear Design & Production, Pop-Up Design & Production, Licensing & Brand Collaborations, Loyalty Program Design, Packaging & Creative Asset Design, Ethical Sourcing, Operations & Logistics, E-commerce Optimization, Wholesale & International Expansion",
+          "p1": "For Pink Palm Puff we plug in as an extension of an already-loved brand, helping design, develop, and scale new product lines including hoodies, sweatpants, jackets, a full swimwear collection, and accessories like hair clips, bag charms, bags, and more, alongside the creative direction and co-production of their pop-up events.",
+          "p2": "Our partnership is about growing Pink Palm Puff in every direction at once, expanding the product world into new categories fans didn't know they wanted yet, bringing that world to life IRL through immersive pop-up experiences, and building the infrastructure behind the scenes to support the brand's next stage of growth."
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-Coastal-Classics.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "With over 35 years of combined experience across apparel, branding, and global product sourcing, our role with Pink Palm Puff isn't a one-off project, it's an ongoing partnership. We design and develop new product categories season over season, standardizing fits, fabrics and compliance while keeping the brand's artwork and identity consistent across every drop."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-Wings.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-Coastal-Classics3.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-2.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 3,
+          "class": "no-item-padding",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-3.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-4.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-swim-5.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "We also facilitated and produced Pink Palm Puff's collaboration with Disney's The Little Mermaid, translating a beloved animated world into a wearable collection true to both brands. The line carried Ariel's world through custom-embroidered detailing, from starfish and shell motifs running down the sleeves to a hand-illustrated \"Under the Sea\" graphic anchoring the back, all rendered across Pink Palm Puff's signature soft, sun-washed colorways. It's the kind of collaboration that only works when both sides feel fully realized, and here, Disney's storytelling and Pink Palm Puff's aesthetic came together as one cohesive world rather than a logo slapped on a blank hoodie."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven-video",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-Disney-Little-Mermaid-photo.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/pink/Little-Mermaid.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Beyond product, we help design and produce Pink Palm Puff's pop-up events, from branded environments to the smaller details that make an experience feel complete: custom umbrellas, sticker packs, tote bags, and exclusive drops like the PPP Angel hair clips."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-1.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "We also created the Pink Palm Passport, which forms part of their loyalty program built to reward the community showing up in person. Customers can collect stamps at pop-up events that unlock exclusive offers, turning a single visit into an ongoing relationship with the brand."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-2.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-Pink-Palm-Passport.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-3.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-4.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "For a brand like Pink Palm Puff, growth doesn't just mean more product, it means giving an already-passionate community more reasons to show up. Every pop-up is built to be shared: a fully realized, photo-ready world that turns customers into a line down the block and a moment into content."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-popup-6.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Behind the scenes, we support the operations and logistics that let that growth scale sustainably, along with e-commerce optimization built to reduce friction and reduce returns, so the experience is as seamless online as it is in person.<br><br>The result is a brand that keeps expanding without losing what made it feel personal in the first place. New products, new markets, and a community that keeps coming back to collect the next stamp."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-1.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-4.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-Slippers.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-2.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/pink/irlURL-Pink-Palm-Puff-sweats.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dead",
+      "content": [
+        {
+          "type": "cover",
+          "url": "assets/pages/dead/irlURL-Deadmau5-Cover.png",
+          "title": "Deadmau5",
+          "subtitle": "THE DEADMAU5 X CAT EYED BOY COLLECTION"
+        },
+        {
+          "type": "intro",
+          "scope": "Ideation, Creative Direction, Licensing, Product Design & Development, Pop-Up Store Design & Production, Styling & Art Direction, Ethical Sourcing, Sustainable Production Solutions, Operations Management",
+          "p1": "For Deadmau5 we arranged a brand collaboration with Cat Eyed Boy that consisted of the creation of a fully custom cut & sew apparel collection and accessories, brought to life through a fully branded pop-up experience in Tokyo. We recognized the opportunity to link Joel's affinity for dark manga and cats to the eerie, feline-eyed world of Cat Eyed Boy. A crossover so natural it felt like a match made in heaven.",
+          "p2": "The aim of the collaboration was threefold. 1. To bring that connection to life through a fully custom collection. 2. Give both fanbases a physical space to discover and experience it in person. 3. Capitalize on the commercial opportunity of two iconic, cult-status brands colliding."
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-collection-overview.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Two brands already at the top of their respective worlds. This was an elevate project: taking what already existed and making it impossible to ignore. We arranged the license deal between Deadmau5 and Cat Eyed Boy, led the collection and product design across the full range of apparel and accessories, and took the project from brief through to final product using our own five-step process: discovering the opportunity, defining the collection, creating the designs, developing samples, and delivering finished product to market.<br><br>Every piece was manufactured through our network of audited, ethically sourced production facilities, so the collection stood up to scrutiny as well as it stood out on a shelf."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/dead/Deadmau5xCatEyedBoy-Pop-Up-Tokyo.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Slipmat.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 3,
+          "class": "no-item-padding",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Product-1.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Product-2.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Product-3.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "We also designed, built, and produced the pop-up store in Tokyo from concept to completion: creative direction, spatial design, and on-the-ground operations. Turning a physical retail space into an immersive world where both fanbases could meet. Every asset across the collection, the space, and the campaign, from graphics and packaging to signage, was created in-house, giving the collaboration one consistent creative voice from product to storefront to feed."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven-video",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-J.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/dead/irlURL-Kazuo-Umezz.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-mousepad.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "Nowadays, commerce and brand connection are interconnected and equally important. So rather than a purely digital drop, we built a physical flagship moment: a striking green-and-black store transformed into the shared universe of Deadmau5 and Cat Eyed Boy, complete with an in-store DJ set from Joel himself and exclusive collectible pieces fans lined up around the block for."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven-video",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-D.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-queue.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-longsleeve.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "text",
+              "val": "We also arranged something genuinely rare: an exclusive signing session with Kazuo Umezu, the undisputed master of Japanese horror manga and original creator of Cat Eyed Boy, alongside Deadmau5 himself. Umezu was famously private and almost never appeared at public events, making this one of the only times fans ever got to meet him in person. A moment made all the more special in hindsight."
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "class": "uneven-video",
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-H.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/dead/irlURL-Pop-up-Tokyo.mp4"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-I.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Product-4.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-B.png"
+            },
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-C.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 1,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Sweater.png"
+            }
+          ]
+        },
+        {
+          "type": "row",
+          "columns": 2,
+          "content": [
+            {
+              "type": "image",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-F.png"
+            },
+            {
+              "type": "video",
+              "val": "assets/pages/dead/irlURL-Deadmau5-Pop-up-Tokyo-Recap.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

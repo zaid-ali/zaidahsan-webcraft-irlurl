@@ -1,0 +1,7 @@
+.git/
+.vercel/
+.prd-scaffold-runs/
+.prd-validation-runs/
+node_modules/
+screenshots/
+tests/
