@@ -1,6 +1,6 @@
 [site]
 name = "zaidahsan-webcraft-irlurl"
-url = ""
+url = "https://zaidahsan-webcraft-irlurl.vercel.app"
 original_url = "https://irl-url.com"
 description = "irl/URL creative agency portfolio — dark cinematic single route with 9 chapters (welcome, work 6 items MrBeast/Pink Palm Puff/Deadmau5/Nike x RTFKT/Akatsuki/Drew House with uppercase descriptors and preview video hover, services 7 numbered plus tailored line, about/mission/purpose/vision narrative, team 4 members Travis Anderson/Bree Morrison/Frank van Rooijen/Damian Estrada with titles/bios/logos/videos, outro contact with email HQ Los Angeles Operations Hong Kong social and animated slash logo 93x108), WebGL background field with cubes and HDR lighting driven by scroll progression and infinite loop wrapping, fixed 100vh sections with scroll track, indicator 9 dots with progress fill scaling and hover labels, header with logo SVG sprite 72x50 and burger 40x40 trigger and slogan We don't do basic, full-screen nav overlay with Work/Services/About/Team jumps, case study overlays with cover/intro scope list/media rows 1/2/3 columns with images/videos/text, team profile overlay split left bio logos and right autoplay video, preloader with progress circle and logo morph, modular CSS desktop/mobile, fully keyboard operable and reduced-motion fallback."
 category = "replication"
@@ -8,7 +8,7 @@ category = "replication"
 [site.tech]
 stack = ["Node.js", "Three.js 0.160 WebGL", "Vanilla JS ESM", "CSS Modules", "Service Worker"]
 hosting = "vercel"
-hosting_access_granted = false
+hosting_access_granted = true
 
 [site.assets]
 images = [
