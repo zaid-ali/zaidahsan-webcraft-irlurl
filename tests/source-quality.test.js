@@ -105,3 +105,29 @@ test("build metadata and hashed asset manifest are present", () => {
     assert(asset.bytes > 0);
   }
 });
+
+test("submission metadata references files included in the repository", () => {
+  const siteMetadata = read("site.toml");
+  const assetBlock = siteMetadata.match(
+    /\[site\.assets\]([\s\S]*?)\n\[site\.prd\]/,
+  );
+  assert(assetBlock, "site.toml must contain a [site.assets] section");
+
+  const assetPaths = [...assetBlock[1].matchAll(/"([^"]+)"/g)].map(
+    (match) => match[1],
+  );
+  assert(assetPaths.length > 0, "site.toml must list local assets");
+
+  const requiredPaths = new Set([
+    ...assetPaths,
+    ".env.example",
+    "screenshots/replica-home.png",
+    "screenshots/replica-mobile.png",
+  ]);
+  for (const relativePath of requiredPaths) {
+    assert(
+      fs.existsSync(path.join(root, relativePath)),
+      `${relativePath} is referenced by submission metadata but is missing`,
+    );
+  }
+});
